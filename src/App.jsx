@@ -14,7 +14,7 @@ const routes = (
   <Router>
     <Routes>
       <Route path='/dashboard' exact element={<Home />} />
-      <Route path='/login' exact element={<Login />} />
+      <Route path='https://lucent-axolotl-d36134.netlify.app/login' exact element={<Login />} />
       <Route path='/signup' exact element={<SignUp />} />
       <Route path='/apod' exact element={<Apod />} />
       <Route path='/astronauts' exact element={<Astronauts />} />
